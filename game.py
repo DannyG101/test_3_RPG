@@ -30,6 +30,9 @@ class Game:
             else:
                 self.start()
 
+    def play(self):
+        self.battle(self.player, self.monster)
+
     @staticmethod
     def create_player():
         return Player()
